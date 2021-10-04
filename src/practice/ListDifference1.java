@@ -42,6 +42,8 @@ public class ListDifference1 {
             }
         }
 
+        Collection c = new ArrayList();
+
         for(Map.Entry m : map.entrySet()){
            if((int)m.getValue() !=0 ){
                System.out.println(m.getKey());
